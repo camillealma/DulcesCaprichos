@@ -1,3 +1,10 @@
+@media only screen and (min-width: 100%) {
+  body {
+    width: 80%;
+    margin: auto;
+  }
+}
+
 .tituloc {
   color: #ffff;
   font-family: Poppins;
@@ -86,6 +93,7 @@ nav ul li a:hover {
 .carousel, .carousel-inner > .item > img {
   width: 100%;
 }
+
 .productos {
   padding-top: 2%;
   padding-bottom: 2%;
@@ -93,8 +101,44 @@ nav ul li a:hover {
   justify-content: space-between;
   align-items: center;
   background-color: #f9e9ff;
-
 }
+
+.contenedor {
+  display: flex;
+  flex-wrap: wrap; /* Permite que las cajas se envuelvan a la siguiente línea si no caben en una fila */
+  justify-content: space-between; /* Espacio entre elementos */
+}
+
+.contenido {
+  text-align: justify;
+  padding: 2%;
+}
+
+.caja {
+  width: calc(50% - 2%); /* Dos elementos por fila con un pequeño margen */
+  height: 100%;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.caja h2 {
+  font-size: 1.5em;
+}
+
+.caja p {
+  font-size: 1em;
+}
+
+@media (max-width: 768px) {
+  .caja {
+      width: 100%; /* Una caja por fila en pantallas pequeñas */
+  }
+}
+
 
 .titulo{
 text-align: center;
@@ -205,34 +249,6 @@ margin:  0;
 font-size: 0.9em;
 display: inline-flex;
 
-}
-
-
-
-.contenedor{
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  background-color: #f9e9ff;
-
-}
-
-.caja{
-  width: 100%;
-  height: 100%;
-  padding: 1%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.caja h2{
-font-size:1.5em;
-}
-
-.caja p{
-  font-size: 1em;
 }
 
 #direccion {
