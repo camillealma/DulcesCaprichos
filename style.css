@@ -84,8 +84,6 @@ nav ul li a:hover {
   font-style: normal;
 }
 
-
-
 .productos {
   padding-top: 2%;
   padding-bottom: 2%;
@@ -97,7 +95,7 @@ nav ul li a:hover {
 
 .contenedor {
   display: flex;
-  flex-wrap: wrap; /* Permite que las cajas se envuelvan a la siguiente línea si no caben en una fila */
+  flex-wrap: wrap; 
   justify-content: space-between; 
 }
 
@@ -107,7 +105,7 @@ nav ul li a:hover {
 }
 
 .caja {
-  width: calc(50% - 2%); /* Dos elementos por fila con un pequeño margen */
+  width: calc(50% - 2%); 
   height: 100%;
   padding: 1%;
   display: flex;
