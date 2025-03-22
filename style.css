@@ -106,7 +106,7 @@ nav ul li a:hover {
 .contenedor {
   display: flex;
   flex-wrap: wrap; /* Permite que las cajas se envuelvan a la siguiente línea si no caben en una fila */
-  justify-content: space-between; /* Espacio entre elementos */
+  justify-content: space-between; 
 }
 
 .contenido {
