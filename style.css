@@ -85,14 +85,6 @@ nav ul li a:hover {
 }
 
 
-.carousel slide{
-  margin-top: 2%;
-}
-
-
-.carousel, .carousel-inner > .item > img {
-  width: 100%;
-}
 
 .productos {
   padding-top: 2%;
