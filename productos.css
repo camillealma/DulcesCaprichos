@@ -218,35 +218,6 @@
   padding-right: 1%;
   }
   
-  #contactos {
-  padding: 2%;
-  width: 100%;
-  }
-  #contactos h3{
-  font-size: 1.5em;
-  font-weight: bold;
-  }
-  #contactos h5 {
-  margin: 0;
-  color: #4da7b5;
-  font-family: Poppins;
-  font-weight: 600;
-  font-size: 1rem;
-  }
-  
-  #contactos p {
-  margin:  0;
-  font-size: 0.9em;
-  display: inline-flex;
-  
-  }
-  
-  #direccion {
-  height: 100%;
-  width: 100%;
-  padding-left: 2%;
-  padding-bottom: 2%;
-  }
   footer img {
   width:  4em;
   }
