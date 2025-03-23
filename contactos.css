@@ -1,0 +1,301 @@
+@media only screen and (min-width: 1024%) {
+    body {
+      width: 80%;
+      margin: auto;
+    }
+  }
+  
+  .tituloc {
+    color: #ffff;
+    font-family: Poppins;
+  
+  }
+  
+  .textoc {
+    color: #000000;
+    background-color:rgba(255, 255, 255, 0.5) ;
+    border:rgba(255, 255, 255, 0.05)  ;
+    font-family: Poppins;
+  
+  }
+  
+  .logo {
+    width: 20%;
+    resize: both;
+    float: left;
+    size-adjust: 100%;
+    padding-inline: 0%;
+  }
+  
+  header {
+    background: none; 
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    padding: 0.8%;
+    background-color:rgba(255, 255, 255, 0.5)  ;
+  }
+  
+  nav {
+    float: right;
+    vertical-align: text-bottom;
+  }
+  
+  nav ul {
+    list-style: none;
+    overflow: hidden; 
+  
+  }
+  
+  nav ul li {
+    float: left;
+    font-family: Poppins;
+    font-size: 1em;
+    padding-top: 3%;
+  }
+  nav ul li a {
+    display: block;
+    padding: 1%;
+    color: #000000;
+    text-decoration: none;
+  }
+  nav ul li a:hover {
+    color: #cf2f6a;
+    background-color:rgba(255, 255, 255, 0.5)  ; ;
+  }
+  
+  
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+
+  .contenedor {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+  }
+  
+  .contenido {
+    text-align: justify;
+    padding: 2%;
+  }
+  
+
+#contactos {
+    flex: 1;
+    padding: 120px 20px 40px; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#contactos .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.col-md-8 iframe {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.col-md-4 {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    max-width: 400px;
+}
+
+h3 {
+    color: #4da7b5;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+h5 {
+    color: #823c8f;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 1em;
+    color: #333;
+    margin: 5px 0;
+}
+
+footer {
+    background-color: #f288af;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    margin-top: auto;
+}
+
+footer img {
+    width: 50px;
+}
+
+
+
+  @media (max-width: 768px) {
+    .caja {
+        width: 100%; /* Una caja por fila en pantallas pequeñas */
+    }
+  }
+  
+  
+  .titulo{
+  text-align: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  font-weight: bolder;
+  color: #823c8f;
+  margin-bottom: 2%;
+  }
+  
+  img{
+    width: 9.375em;
+  }
+  h1{
+    font-size: 2.125em;
+    color: rgb(35, 35, 72);
+    font-family: Poppins;
+    font-style: bold;
+  }
+  p{
+    font-size: 1.25em;
+    color: rgb(74, 67, 67);
+    font-family: Poppins;
+  
+  }
+  
+  .division1 {
+  align-items: left;
+  float: left;
+  flex-direction: column;
+  
+  }
+  
+  
+  .sobrenosotros {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 1.5%;
+  padding-bottom: 2%;
+  
+  
+  }
+  .contenido {
+  text-align: justify;
+  padding: 2%;
+  }
+  
+  .sobrenosotros h1 {
+  font-size: 2.125em;
+  color: #4da7b5;
+  font-family: Poppins;
+  font-weight: 700;
+  text-align: center;
+  }
+  
+  .divisor {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  }
+  
+  .division1 {
+  align-items: left;
+  }
+  .division2 {
+  align-items: right;
+  }
+  
+  .division1 img, .division2 img {
+  width: 100%;
+  height: auto;
+  }
+  
+  .text-content {
+  width: 60%;
+  text-align: justify;
+  }
+  
+  .sobrenosotros p {
+  font-size: 1.15em;
+  font-family: Poppins;
+  padding: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+  }
+  
+  #contactos {
+  padding: 2%;
+  width: 100%;
+  }
+  #contactos h3{
+  font-size: 1.5em;
+  font-weight: bold;
+  }
+  #contactos h5 {
+  margin: 0;
+  color: #4da7b5;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 1rem;
+  }
+  
+  #contactos p {
+  margin:  0;
+  font-size: 0.9em;
+  display: inline-flex;
+  
+  }
+  
+  #direccion {
+  height: 100%;
+  width: 100%;
+  padding-left: 2%;
+  padding-bottom: 2%;
+  }
+  footer img {
+  width:  4em;
+  }
+  footer {
+  background-color: #f288af;
+  padding: 2%;
+  text-align: center ;
+  width: 100%;
+  
+  }
+  
+  footer p {
+  color: #ffff;
+  font-size: 1em;
+  }
