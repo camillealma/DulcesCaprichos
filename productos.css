@@ -122,6 +122,19 @@
   .caja p {
     font-size: 1em;
   }
+  footer {
+    background-color: #f288af;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    margin-top: auto;
+    
+}
+
+footer img {
+    width: 50px;
+}
+
   
   @media (max-width: 768px) {
     .caja {
